@@ -91,5 +91,15 @@ export const TableContainer = styled.section`
     td:last-child {
       border-radius: 0 8px 8px 0;
     }
+
+    tbody {
+      tr {
+        transition: transform 0.2s;
+
+        &:hover {
+          transform: translateX(10px);
+        }
+      }
+    }
   }
 `;
